@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var array1= [1,2,3,4,5];
+		var array2=[2,5,8];
+
+ 	var intersectionarray=_.intersection(array1,array2);
+ 	console.log("match array::", intersectionarray);
+             
+    var differencearray=_.difference(array1,array2);
+    var differencearray1=_.difference(array2,array1);
+    var mismatcharray=_.union(differencearray,differencearray1);
+    console.log("mismatcharray::",mismatcharray);
+  
+   //console.log("mismatcharray::",differencearray);
+   //console.log("mismatcharray::",differencearray1);
+  //console.log("mismatcharray::",differencearray,differencearray1);
+  
+	</script>
+</head>
+<body>
+
+</body>
+</html>
